@@ -68,7 +68,7 @@ missouri <- state %>%
 new_mo <- bind_rows(missouri[260:nrow(missouri),],missouri[1:259,])
 
 
-#split Illinois in to - rename region/group to be informative
+#split missouri in to - rename region/group to be informative
 #copy split plot to second object to overlap edges
 mo_north <- new_mo[1:106,] %>%
   mutate(group = 27.2,
