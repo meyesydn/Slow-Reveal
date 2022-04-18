@@ -780,6 +780,7 @@ FLplot <- ggplot(FloridaDF, aes(x = year, y = percent)) +
 
 # Combining plots using cowplot
 # Still havent figured out how to make the text sizes to readjust automatically to make the merged plot accurate
+# Text Still overlapping in the merged plot
 plot_grid(
   DEplot, KYplot, NCplot, ARplot, 
   MDplot, MOplot, SCplot, MSplot,
